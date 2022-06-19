@@ -302,14 +302,14 @@ section {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 120px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
 }
 #header.header-scrolled {
   background: rgba(39, 70, 133, 0.8);
-  height: 60px;
+  height: 100px;
 }
 #header .logo h1 {
   font-size: 28px;
@@ -325,8 +325,9 @@ section {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 90px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -334,6 +335,9 @@ section {
 /**
 * Desktop Navigation 
 */
+
+
+
 .navbar {
   padding: 0;
 }
